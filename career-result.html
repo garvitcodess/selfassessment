@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Career Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card result-card">
+            <div class="result-animation">
+                <div class="pulse-circle"></div>
+                <h1>Your Career Path</h1>
+            </div>
+            <div class="career-categories" id="careerCategories">
+                <div class="category">
+                    <h3>🎯 Top Matches</h3>
+                    <div class="career-list" id="topCareers">
+                        <div class="career-item">
+                            <span class="career-title">Software Developer</span>
+                            <span class="match-percentage">92%</span>
+                        </div>
+                        <div class="career-item">
+                            <span class="career-title">Data Scientist</span>
+                            <span class="match-percentage">88%</span>
+                        </div>
+                        <div class="career-item">
+                            <span class="career-title">UX Designer</span>
+                            <span class="match-percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>🌟 Alternative Options</h3>
+                    <div class="career-list" id="alternativeCareers">
+                        <div class="career-item">
+                            <span class="career-title">Product Manager</span>
+                            <span class="match-percentage">78%</span>
+                        </div>
+                        <div class="career-item">
+                            <span class="career-title">Technical Writer</span>
+                            <span class="match-percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="strengths-section">
+                <h3>Your Key Strengths</h3>
+                <div class="strengths-grid" id="strengthsGrid">
+                    <div class="strength">Problem Solving</div>
+                    <div class="strength">Analytical Thinking</div>
+                    <div class="strength">Creativity</div>
+                    <div class="strength">Communication</div>
+                </div>
+            </div>
+            <div class="result-actions">
+                <button class="btn-primary" id="retakeTest">Retake Assessment</button>
+                <button class="btn-secondary" id="tryPersonalityTest">Try Personality Test</button>
+                <button class="btn-secondary" id="downloadReport">Download Report</button>
+                <button class="btn-secondary" id="goHome">Home</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

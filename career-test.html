@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Counseling Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <h1 id="questionNumber">Question 1 of 12</h1>
+            <h2 id="questionText">What subjects did you enjoy most in school?</h2>
+            <div class="options-container" id="optionsContainer">
+                <div class="option" data-value="stem">
+                    <span class="option-letter">A</span>
+                    <span class="option-text">Mathematics, Science, Computer Science</span>
+                </div>
+                <div class="option" data-value="arts">
+                    <span class="option-letter">B</span>
+                    <span class="option-text">Art, Music, Literature, Creative Writing</span>
+                </div>
+                <div class="option" data-value="social">
+                    <span class="option-letter">C</span>
+                    <span class="option-text">History, Psychology, Sociology, Languages</span>
+                </div>
+                <div class="option" data-value="practical">
+                    <span class="option-letter">D</span>
+                    <span class="option-text">Business, Economics, Physical Education</span>
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="btn-secondary" id="prevBtn" disabled>Previous</button>
+                <button class="btn-primary" id="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

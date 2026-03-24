@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <h1 id="questionNumber">Question 1 of 10</h1>
+            <h2 id="questionText">How do you prefer to spend your free time?</h2>
+            <div class="options-container" id="optionsContainer">
+                <div class="option" data-value="introverted">
+                    <span class="option-letter">A</span>
+                    <span class="option-text">Reading books or enjoying quiet activities alone</span>
+                </div>
+                <div class="option" data-value="extroverted">
+                    <span class="option-letter">B</span>
+                    <span class="option-text">Socializing with friends and attending events</span>
+                </div>
+                <div class="option" data-value="balanced">
+                    <span class="option-letter">C</span>
+                    <span class="option-text">Mix of both, depending on my mood</span>
+                </div>
+                <div class="option" data-value="creative">
+                    <span class="option-letter">D</span>
+                    <span class="option-text">Engaging in creative hobbies or learning new skills</span>
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="btn-secondary" id="prevBtn" disabled>Previous</button>
+                <button class="btn-primary" id="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
